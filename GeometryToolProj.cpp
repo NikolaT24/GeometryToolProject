@@ -1,8 +1,22 @@
+/**
+*
+* Solution to course project # 3
+* Introduction to programming course
+* Faculty of Mathematics and Informatics of Sofia University
+* Winter semester 2022/2023
+*
+* @author Nikola Topalov
+* @idnumber 1MI0600248
+* @compiler VC
+*
+* <Geometry tool>
+*
+*/
+
 #include <iostream>
 #include <cmath>
 #include <sstream>
 #include <string>
-#include <cstring>
 
 const std::size_t MAX_SIZE = 64; //maximum name length of points and lines
 
@@ -368,20 +382,6 @@ bool areLinesParallel(double a, double p) {
 	if (myFabs(a - p) < EPSILON)
 		return true;
 	return false;
-}
-
-double intersOfLinesX(double a, double b, double p, double q) {
-	if (areLinesParallel(a, p))
-		return 0;
-	else
-		return (q - b) / (a - p);
-}
-
-double intersOfLinesY(double a, double b, double p, double q) {
-	if (areLinesParallel(a, p))
-		return 0;
-	else
-		return a * (q - b) / (a - p) + b;
 }
 
 bool doThreeLinesInters(double a, double b, double p, double q, double s, double t) {

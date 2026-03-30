@@ -60,4 +60,9 @@ compute intersections, construct lines, analyze triangles, and more.
 - Quadrilateral classification:
   - Parallelogram  
   - Rectangle  
-  - Trapezoid  
+  - Trapezoid
+
+<p align="center">
+  <b>👤 Author</b><br>
+  Nikola Topalov
+</p>

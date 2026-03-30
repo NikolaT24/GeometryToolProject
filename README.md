@@ -63,6 +63,5 @@ compute intersections, construct lines, analyze triangles, and more.
   - Trapezoid
 
 <p align="center">
-  <b>👤 Author</b><br>
-  Nikola Topalov
+  <b>👤 Author:</b> Nikola Topalov
 </p>

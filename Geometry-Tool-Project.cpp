@@ -1,16 +1,16 @@
 /**
- * Dolution to course project #3
- * Introduction to Programming course
- * Faculty of Mathematics and Informatics of Sofia University
- * Winter semester 2022/2023
- *
- * @author Nikola Topalov
- * @idnumber 1MI0600248
- * @compiler VC / g++ / clang++
- *
- * <Geometry tool>
- *
- */
+* Dolution to course project #3
+* Introduction to Programming course
+* Faculty of Mathematics and Informatics of Sofia University
+* Winter semester 2022/2023
+*
+* @author Nikola Topalov
+* @idnumber 1MI0600248
+* @compiler VC / g++ / clang++
+*
+* <Geometry tool>
+*
+*/
 
 #include <iostream>
 #include <iomanip>
